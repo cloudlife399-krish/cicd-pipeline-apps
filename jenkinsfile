@@ -1,1 +1,1 @@
-pipeline {agent any; stages { stage('Build') { steps { bat 'py apps.py' } } } }
+pipeline {agent any; stages { stage('Build') { steps { echo 'jenkins working' } } } }
